@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+      "Math": {
+        "command": "C:/Users/Jefe-Programer-9096/Documents/CoordinacionInteligenciaArtificial/langchain-mcp/langchain/Scripts/python.exe",
+        "args": [
+          "-m",
+          "uv",
+          "--directory",
+          "C:/Users/Jefe-Programer-9096/Documents/CoordinacionInteligenciaArtificial/langchain-mcp/mymcp",
+          "run",
+          "server.py"
+        ]
+      }
+    }
+  }  

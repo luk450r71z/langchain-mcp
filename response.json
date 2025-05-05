@@ -1,0 +1,55 @@
+{'messages': [HumanMessage(content="what's (3 + 5) x 12?", additional_kwargs={}, response_metadata={}, id='35d784c0-3fed-4a59-bdac-6a051c5f6f29'), AIMessage(content='', additional_kwargs={'tool_calls': [
+                {'id': 'call_wKhR9hi5dQo0uSCinxgtZACg', 'function': {'arguments': '{
+                            "a": 3,
+                            "b": 5
+                        }', 'name': 'add'
+                    }, 'type': 'function'
+                },
+                {'id': 'call_Gw8xTwTef5U6SkOSNkCXxTW3', 'function': {'arguments': '{
+                            "a": 12,
+                            "b": 1
+                        }', 'name': 'multiply'
+                    }, 'type': 'function'
+                }
+            ], 'refusal': None
+        }, response_metadata={'token_usage': {'completion_tokens': 51, 'prompt_tokens': 77, 'total_tokens': 128, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0
+                }, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0
+                }
+            }, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_0392822090', 'id': 'chatcmpl-BTpNECQ3tX7WuPM8I7tn3MBBTzoKP', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None
+        }, id='run--95f20000-47a5-4019-a748-93216950a41a-0', tool_calls=[
+            {'name': 'add', 'args': {'a': 3, 'b': 5
+                }, 'id': 'call_wKhR9hi5dQo0uSCinxgtZACg', 'type': 'tool_call'
+            },
+            {'name': 'multiply', 'args': {'a': 12, 'b': 1
+                }, 'id': 'call_Gw8xTwTef5U6SkOSNkCXxTW3', 'type': 'tool_call'
+            }
+        ], usage_metadata={'input_tokens': 77, 'output_tokens': 51, 'total_tokens': 128, 'input_token_details': {'audio': 0, 'cache_read': 0
+            }, 'output_token_details': {'audio': 0, 'reasoning': 0
+            }
+        }), ToolMessage(content='8', name='add', id='4022aea3-4ec1-4794-8259-3d25d201628f', tool_call_id='call_wKhR9hi5dQo0uSCinxgtZACg'), ToolMessage(content='12', name='multiply', id='62922220-a678-4499-8678-ed0a2245a643', tool_call_id='call_Gw8xTwTef5U6SkOSNkCXxTW3'), AIMessage(content='', additional_kwargs={'tool_calls': [
+                {'id': 'call_uP5KA34Ifrxnjcly'
+                }, 'type': 'function'
+            }
+        ], 'refusal': None
+    }, response_metadata={'token_usage': {'completion_tokens': 18, 'prompt_tokens': 143, 'total_tokens': 161, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0
+            }, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0
+            }
+        }, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_0392822090', 'id': 'chatcmpl-BTpNG8PyPZw1a3byCBjgHFV4HioWz', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None
+    }, id='run--0555d395-aced-48a7-87e3-5626a615d001-0', tool_calls=[
+        {'name': 'multiply', 'args': {'a': 8, 'b': 12
+            }, 'id': 'call_uP5KA34Ifrxnjc3JYA9w9qRN', 'type': 'tool_call'
+        }
+    ], usage_metadata={'input_tokens': 143, 'output_tokens': 18, 'total_tokens': 161, 'input_token_details': {'audio': 0, 'cache_read': 0
+        }, 'output_token_details': {'audio': 0, 'reasoning': 0
+        }
+    }), ToolMessage(content='96', name='multiply', id='e8293372-7835-4b02-b1a3-ba2a028d5f57', tool_call_id='call_uP5KA34Ifrxnjc3JYA9w9qRN'), AIMessage(content='The result of \\((3 + 5) \\times 12\\) is \\(96\\).', additional_kwargs={'refusal': None
+    }, response_metadata={'token_usage': {'completion_tokens': 23, 'prompt_tokens': 168, 'total_tokens': 191, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0
+            }, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0
+            }
+        }, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_0392822090', 'id': 'chatcmpl-BTpNJuMqWjZaVFsBqAnSvPwKy7ip0', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None
+    }, id='run--54aafb7b-b2ca-4743-8fd2-c2e36849127c-0', usage_metadata={'input_tokens': 168, 'output_tokens': 23, 'total_tokens': 191, 'input_token_details': {'audio': 0, 'cache_read': 0
+        }, 'output_token_details': {'audio': 0, 'reasoning': 0
+        }
+    })
+]
+}
